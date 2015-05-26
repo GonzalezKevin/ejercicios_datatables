@@ -164,7 +164,7 @@ module.exports = function (grunt) {
     wiredep: {
       app: {
         ignorePath: /^\/|\.\.\//,
-        src: ['<%= config.app %>/ejercicio*_solucionado.html']
+        src: ['<%= config.app %>/index.html']
       }
     },
 
